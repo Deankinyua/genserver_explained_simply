@@ -14,6 +14,7 @@ defmodule GenserverExplainedSimply.Application do
       {Phoenix.PubSub, name: GenserverExplainedSimply.PubSub},
       # Start the Finch HTTP client for sending emails
       {Finch, name: GenserverExplainedSimply.Finch},
+      {GenserverExplainedSimply.Counter, []},
       # Start a worker by calling: GenserverExplainedSimply.Worker.start_link(arg)
       # {GenserverExplainedSimply.Worker, arg},
       # Start to serve requests, typically the last entry
